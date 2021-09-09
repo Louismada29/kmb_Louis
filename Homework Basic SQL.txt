@@ -1,0 +1,14 @@
+create table batch_kmb.kmb_basic_louis_madaerdo (
+	id int
+	, name varchar
+	, tanggal_lahir date
+	, gaji float
+)
+
+select * from batch_kmb.kmb_basic_louis_madaerdo 
+
+insert into batch_kmb.kmb_basic_louis_madaerdo values
+(1, 'louis madaerdo', '2001-02-28', 15000000),
+(2, 'stefy dermawan', '2000-02-22', 10000000)
+
+select * from batch_kmb.kmb_basic_louis_madaerdo 
